@@ -1,0 +1,179 @@
+.wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4{
+	margin-left: 0px;
+	border: none;
+}
+.confluenceTable tr:nth-child(odd) td{
+	background-color: #ffffff;
+}
+.confluenceTable tr:nth-child(even) td{
+	background-color: rgb(252, 252, 252);
+}
+.confluenceTable tr td, table.confluenceTable td.confluenceTd.highlight-blue > p{
+	transition: background-color ease 500ms;
+}
+.confluenceTable tr:hover td.confluenceTd, table.confluenceTable tr:hover td.confluenceTd.highlight-blue > p{
+	background-color: #cdffeb;
+  }
+.wiki-content h2 {
+	color: #070d59
+}
+.wiki-content h3{
+	color: #1f3c88;
+}
+.confluenceTable:first-child, .table-wrap:first-child{
+	width: 100%;
+}
+.hidden-outline ul{
+	list-style-type: none;
+}
+.hidden-outline ul{
+	padding-left: 0px;
+}
+.hidden-outline>ul:first-child>li{
+	 margin-top:5px;
+}
+.hidden-outline>ul:first-child>li>span>a.toc-link{
+	 color: #3d46b0 !important;
+	 font-size: 18px;
+	 font-weight: bold;
+}
+.hidden-outline>ul>li>ul>li>span>a{
+	 font-weight: normal;
+	 font-weight: bold;
+	 color: #5893d4 !important;
+}
+.confluenceTh{
+	background-color: #1f3c88 !important;
+	color: #ffffff !important;
+} 
+
+.confluenceTable tbody tr:nth-child(2) th {
+	background-color: #2771e8 !important;
+  }
+
+  td.confluenceTd{
+	border: #fff solid 1px;
+  }
+  td.confluenceTd:last-child, td.confluenceTd:first-child{
+	border-right: none;
+  }
+  tr:first-child th:last-child{
+	border-radius: 0px 3px 0px 0px !important;
+  }
+  .confluenceTable tbody tr th:first-child{
+	background-color: #2771e8 !important;
+	border-radius: 0px !important;
+  }
+  .confluenceTable thead tr:first-child th:first-child{
+	border-radius: 3px 0px 0px 0px !important;
+	background-color: #1f3c88 !important;
+  }
+  .confluenceTable tr:last-child td:first-child{
+	border-bottom-left-radius: 3px;
+  }
+  .confluenceTable tr:last-child td:last-child{
+	border-bottom-right-radius: 3px;
+  }
+.wiki-content .tablesorter-header-inner{
+	color: #ffffff;
+}
+.confluenceTh, .confluenceTd{
+	border: none;
+}
+
+.wiki-content .aui-lozenge-success{
+	background-color: #009f9d;
+	border-color: #009f9d;
+}
+
+a.external-link{
+	font-weight: 700;
+	color: #3d46b0 !important;
+  }
+.geDiagramContainer{
+	border: none !important;
+  }
+
+/*BLOCK INFORMATIONS */
+.confluence-information-macro-tip{
+	border-color: #6ed88d;
+	background-color: #f4fff4;
+}
+.confluence-information-macro-note{
+	border-color: #ffc251;
+	background-color:#fffaea;
+  }
+.confluence-information-macro-warning{
+	border-color: #ff5f5f;
+	}
+.confluence-information-macro-information{
+	border-color:#0052CC;
+	background-color: #f7faff;
+}
+
+/* Toggle expand box */
+
+.expand-control span{
+	transition: color 500ms ease;
+	text-decoration: none !important;
+	font-size: 16px !important;;
+  }
+  .expand-control:hover span{
+	color: #172b4d;
+  }
+
+/*Font Awesome */
+.fas{ font-size;}
+
+/* Commentaire sur image */
+.wiki-content .confluence-embedded-file-wrapper .overlay .comment-count-overlay{
+	background-color: #0049B0 !important;
+  }
+
+/*Persona Cards */
+.personaCard{
+	border-radius: 3px;
+	box-shadow: 0px 3px 15px #eee;
+	transition: background-color 1s ease;
+	border-left:  #1f3c88 solid 3px;
+	position: relative;
+  }
+  .personaCard td{
+	padding: 5px;
+	vertical-align: top;
+	transition: background-color 1s ease;
+  }
+  .personaCard:hover td, .personaCard:hover{
+	background-color: #cdffeb;
+  }
+  .personaCard img{
+	max-height: 100px;
+  }
+  .personaCard a{
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
+	width: 25px;
+	height: 15px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	background-color: #0065FF;
+	color: #ffffff !important;
+	border-radius: 5px 0px;
+  }
+  /*Subject Card*/
+  a.subjectCard{
+	display: block;
+	border-radius: 3px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #deebff;
+	transition: background-color 1s ease-out;
+	font-weight: bold;
+	margin: 5px auto;
+  }
+  a.subjectCard:hover{
+	background-color: #fff;
+  }
