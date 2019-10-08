@@ -97,18 +97,23 @@ a.external-link{
 /*BLOCK INFORMATIONS */
 .confluence-information-macro-tip{
 	border-color: #6ed88d;
-	background-color: #f4fff4;
+	border-left: #6ED88D solid 3px;
+	background-color: #fff;
 }
 .confluence-information-macro-note{
 	border-color: #ffc251;
-	background-color:#fffaea;
+	border-left: #ffC251 solid 3px;
+	background-color: #fff;
   }
 .confluence-information-macro-warning{
 	border-color: #ff5f5f;
+	border-left: #ff5f5f solid 3px;
+	background-color: #fff;
 	}
 .confluence-information-macro-information{
 	border-color:#0052CC;
-	background-color: #f7faff;
+	border-left: #0052CC solid 3px;
+	background-color: #fff;
 }
 
 /* Toggle expand box */
