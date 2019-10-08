@@ -177,3 +177,56 @@ a.external-link{
   a.subjectCard:hover{
 	background-color: #fff;
   }
+
+/* My Table */
+
+.tblManual thead tr th:first-child{
+	border-radius: 3px 0px 0px 0px;
+  }
+.tblManual thead tr th:last-child{
+	border-radius: 0px 3px 0px 0px;
+}
+.tblManual tr:last-child td:first-child{
+	border-radius: 0px 0px 3px 0px;
+}
+.tblManual tr:last-child td:last-child{
+	border-radius: 0px 0px 0px 3px;
+}
+
+.tblManual tr:nth-child(even) td{
+	background-color: #eee;
+}
+.tblManual{
+	margin: 10px 0px 10px 0px;
+  }
+  .tblManual tr.tblAccent:hover td{
+	background-color: #2771e8;
+  }
+  .tblManual tr:hover td{
+	background-color: #cdffeb;
+  }
+  .tblManual th{
+  color: #fff;
+  background-color:#0049B0;
+  }
+  .tblManual th{
+	background-color: #0049B0;
+	color: #fff;
+	padding: 5px;
+	vertical-align: middle;
+	text-align: left;
+  }
+  .tblManual td:first-child{
+	font-weight: bold;
+	max-width: 250px;
+  }
+  .tblManual td{
+	padding: 5px;
+  }
+  .tblManual{
+	border-collapse: collapse;
+  }
+  .tblAccent td{
+	background-color: #2771e8;
+	color: #fff;
+  }
