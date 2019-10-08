@@ -194,7 +194,7 @@ a.external-link{
 }
 
 .tblManual tr:nth-child(even) td{
-	background-color: #eee;
+	background-color: #fafafa;
 }
 .tblManual{
 	margin: 10px 0px 10px 0px;
@@ -226,7 +226,7 @@ a.external-link{
   .tblManual{
 	border-collapse: collapse;
   }
-  .tblAccent td {
+  .tblAccent td{
 	background-color: #2771e8 !important;
 	color: #fff;
   }
