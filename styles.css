@@ -211,12 +211,8 @@ a.external-link{
 	background-color: #cdffeb;
   }
   .tblManual th{
-  color: #fff;
-  background-color:#0049B0;
-  }
-  .tblManual th{
-	background-color: #0049B0;
-	color: #fff;
+	background-color: #0049B0 !important;
+	color: #fff !important;
 	padding: 5px;
 	vertical-align: middle;
 	text-align: left;
