@@ -186,10 +186,10 @@ a.external-link{
 .tblManual thead tr th:last-child{
 	border-radius: 0px 3px 0px 0px;
 }
-.tblManual tr:last-child td:first-child{
+.tblManual tbody tr:last-child td:first-child{
 	border-radius: 0px 0px 3px 0px;
 }
-.tblManual tr:last-child td:last-child{
+.tblManual tbody tr:last-child td:last-child{
 	border-radius: 0px 0px 0px 3px;
 }
 
