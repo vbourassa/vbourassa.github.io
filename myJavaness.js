@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    $('.tblManual').DataTable();
+    $('.tblManual').DataTable({
+        "paging" : false;
+    });
 } );
 
 // Dynamic tables
