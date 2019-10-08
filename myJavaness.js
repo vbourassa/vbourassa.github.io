@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.tblManual').DataTable({
-        "paging" : false;
+        "paging" : false
     });
 } );
 
