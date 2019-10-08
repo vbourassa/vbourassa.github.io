@@ -226,7 +226,7 @@ a.external-link{
   .tblManual{
 	border-collapse: collapse;
   }
-  .tblAccent td{
+  .tblAccentgit  td:nth-child(even), .tblAccentgit  td:nth-child(odd) {
 	background-color: #2771e8;
 	color: #fff;
   }
