@@ -213,7 +213,7 @@ a.external-link{
   .tblManual th{
 	background-color: #0049B0 !important;
 	color: #fff !important;
-	padding: 5px;
+	padding: 8px;
 	vertical-align: middle;
 	text-align: left;
   }
@@ -222,7 +222,7 @@ a.external-link{
 	max-width: 250px;
   }
   .tblManual td{
-	padding: 5px;
+	padding: 8px;
   }
   .tblManual{
 	border-collapse: collapse;
