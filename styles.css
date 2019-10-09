@@ -185,12 +185,6 @@ a.external-link{
 
 /* My Table */
 
-.tblManual thead tr th:first-child{
-	border-radius: 3px 0px 0px 0px;
-  }
-.tblManual thead tr th:last-child{
-	border-radius: 0px 3px 0px 0px;
-}
 .tblManual tbody tr:last-child td:first-child{
 	border-radius: 0px 0px 3px 0px;
 }
@@ -202,7 +196,7 @@ a.external-link{
 	background-color: #fafafa;
 }
 .tblManual{
-	margin: 10px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
   }
   .tblManual tr.tblAccent:hover td{
 	background-color: #2771e8;
