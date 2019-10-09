@@ -185,15 +185,11 @@ a.external-link{
 
 /* My Table */
 
-.tblManual tbody tr:last-child td:first-child{
-	border-radius: 0px 0px 3px 0px;
-}
-.tblManual tbody tr:last-child td:last-child{
-	border-radius: 0px 0px 0px 3px;
-}
-
 .tblManual tr:nth-child(even) td{
 	background-color: #fafafa;
+}
+.tblManual tr:first-child th:last-child{
+	border-radius: 0px !important;
 }
 .tblManual{
 	margin: 0px 0px 10px 0px;
