@@ -1,3 +1,6 @@
+console.log(document.getElementsByTagName('label')[0].innerText);
+var tblWidth = document.getElementsByClassName('tblManual')[0].offsetWidth;
+document.getElementsByTagName('label')[0].innerHTML = '<input type="search" class="" placeholder="Rechercher" aria-controls="DataTables_Table_0" style="width:'+tblWidth+'px;">';
 $(document).ready(function() {
     $('.tblManual').DataTable({
         "paging" : false
