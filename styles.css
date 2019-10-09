@@ -197,6 +197,7 @@ a.external-link{
 }
 .tblManual{
 	margin: 0px 0px 10px 0px;
+	width : 100%;
   }
   .tblManual tr.tblAccent:hover td{
 	background-color: #2771e8;
@@ -224,4 +225,26 @@ a.external-link{
   .tblAccent td{
 	background-color: #2771e8 !important;
 	color: #fff;
+  }
+  .dataTables_filter label{
+	position: relative;
+	border-radius: 3px 3px 0px 0px;
+	background-color: #0049B0;
+	display: block;
+	width: 100%;
+	height: 43px;
+  }
+  .dataTables_filter label input{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	border-radius: 3px;
+	border: none;
+	padding: 8px;
+	width: calc(100% - 11px);
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: background-color 500ms ease;
+  }
+  .dataTables_filter label input:focus{
+	background-color: #fff;
   }
