@@ -239,6 +239,7 @@ a.external-link{
   }
   .dataTables_filter label input{
 	position: absolute;
+	color: #fff;
 	left: 5px;
 	top: 5px;
 	border-radius: 3px;
@@ -250,4 +251,5 @@ a.external-link{
   }
   .dataTables_filter label input:focus{
 	background-color: #fff;
+	color: #222;
   }
