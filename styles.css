@@ -42,7 +42,7 @@
 	 font-weight: bold;
 	 color: #5893d4 !important;
 }
-.confluenceTh{
+.confluenceTh, .confluenceTh a{
 	background-color: #1f3c88 !important;
 	color: #ffffff !important;
 } 
@@ -82,6 +82,7 @@
 }
 .confluenceTable tr:first-child th, .confluenceTable tr:first-child th:first-child{
 	background-color:#1f3c88 !important;
+	color: #fff !important;
   }
 
 /* Wiki Content */
