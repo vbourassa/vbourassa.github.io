@@ -60,7 +60,7 @@
   tr:first-child th:last-child{
 	border-radius: 0px 3px 0px 0px !important;
   }
-  .confluenceTable tbody tr th:first-child{
+  .confluenceTable>tbody>tr>th:first-child{
 	background-color: #2771e8 !important;
 	border-radius: 0px !important;
   }
@@ -81,10 +81,7 @@
 	border: none;
 }
 .confluenceTable tr:first-child th, .confluenceTable tr:first-child th:first-child{
-	background-color: red !important;
-  }
-  .confluenceTable>tbody>tr>th:first-child{
-	background-color: blue !important;
+	background-color:#1f3c88 !important;
   }
 
 /* Wiki Content */
