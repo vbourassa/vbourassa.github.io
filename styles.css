@@ -80,6 +80,14 @@
 .confluenceTh, .confluenceTd{
 	border: none;
 }
+.confluenceTable tr:first-child th, .confluenceTable tr:first-child th:first-child{
+	background-color: red !important;
+  }
+  .confluenceTable>tbody>tr>th:first-child{
+	background-color: blue !important;
+  }
+
+/* Wiki Content */
 
 .wiki-content .aui-lozenge-success{
 	background-color: #009f9d;
