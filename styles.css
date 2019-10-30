@@ -266,3 +266,9 @@ a.external-link{
 	background-color: #fff;
 	color: #222;
   }
+
+  /* Links */
+
+  .wiki-content a, .wiki-content a:link, .wiki-content a:visited, .wiki-content a:focus, .wiki-content a:hover, .wiki-content a:active{
+	  font-weight: bold;
+  }
